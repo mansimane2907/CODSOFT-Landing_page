@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color:#fff;
+}
+
+.navbar-brand a {
+    color:#82ae46;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 20px;
+    
+}
+
+.navbar-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+.hero-image {
+   background-image: url(images/bg_2.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text1{
+    font-size: 3em; /* Adjust font size as needed */
+   font-family: cursive;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.text2{
+    font-size: 1.5rem; /* Adjust font size as needed */
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #82ae46; /* Button color */
+    border-radius: 20px;
+    border:1px solid #82ae46;
+    transition: background-color 0.3s ease;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color:rgba(0,0,0,0.5); /* Darker button color on hover */
+    
+}
+@media (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+    }
+}
+.container {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 155px;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+    color: #82ae46;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  
+  .lead{
+    font-size: 17px;
+  }
+  .highlight{
+    font-size: 15px;
+    color: #82ae46;
+  }
+.item a{
+    text-decoration: none;
+    color:black;
+}
+.container2 {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.text-side {
+    flex: 1;
+    padding: 20px;
+    background: #82ae46;
+    border-radius: 8px 0 0 8px;
+    color: #fff;
+    
+}
+
+.form-side {
+    flex: 2;
+    padding: 20px;
+}
+
+.form-side h2 {
+    margin-top: 0;
+
+}
+
+.form-side label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-side input, .form-side textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    background-color:#82ae46;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Footer paragraph styling */
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Footer link styling */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer list styling */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
